@@ -216,7 +216,7 @@ const scrollToSection = (id) => {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="text-xs">
-                  <div className="font-bold">Duke University</div>
+                  <div className="font-bold">Muhammadiyah University of Karanganyar</div>
                   <div className="text-gray-400">The Character</div>
                 </div>
               </div>
