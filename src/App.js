@@ -50,7 +50,7 @@ const scrollToSection = (id) => {
       image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop"
     },
     {
-      category: "AUG | TODAY",
+      category: "NOV | TODAY",
       title: "Prestasi Mahasiswa TEKKOM di Kompetisi Robotika Nasional",
       image: "/resources/news3.webp"
     }
@@ -219,7 +219,7 @@ const scrollToSection = (id) => {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="text-xs">
-                  <div className="font-bold">Duke University</div>
+                  <div className="font-bold">Muhammadiyah University of Karanganyar</div>
                   <div className="text-gray-400">The Character</div>
                 </div>
               </div>
