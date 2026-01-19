@@ -118,7 +118,7 @@ const scrollToSection = (id) => {
                   className="w-100 h-100 object-contain" // Logo juga dibuat lebih kecil
                 />
             </div>
-            <div className="text-sm tracking-widest mb-2">Program Studi Teknik Komputer – UMUKA</div>
+            <div className="text-sm tracking-widest mb-2">Program Studi Teknik Komputer UMUKA</div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Computer Engineering</h1>
           <p className="text-lg text-gray-300 tracking-wider">The Character of Success</p>
