@@ -51,7 +51,7 @@ const scrollToSection = (id) => {
     },
     {
       category: "NOV | TODAY",
-      title: "Prestasi Mahasiswa TEKKOM di Kompetisi Robotika Nasional",
+      title: "Prestasi Mahasiswa TEKKOM di lomba video reels ",
       image: "/resources/news3.webp"
     }
   ];
