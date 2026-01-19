@@ -51,8 +51,8 @@ const scrollToSection = (id) => {
     },
     {
       category: "AUG | TODAY",
-      title: "Shownu's So Hot What Do We Do For This?",
-      image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&h=400&fit=crop"
+      title: "Prestasi Mahasiswa TEKKOM di Kompetisi Robotika Nasional",
+      image: "/resources/news3.webp"
     }
   ];
 
@@ -103,7 +103,7 @@ const scrollToSection = (id) => {
       {/* Hero Section */}
       <div id="home" className="relative h-[700px] scroll-smooth">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center bg-gradient-to-b from-black/30 via-black/50 to-black/70"
           style={{
             backgroundImage: "url('/resources/gedung_umuka.webp')",
             filter: "brightness(0.5)"
@@ -111,14 +111,14 @@ const scrollToSection = (id) => {
         />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
           <div className="mb-6">
-            <div className="w-24 h-24 mx-auto flex items-center justify-center mb-4">
+            <div className="w-40 h-40 mx-auto flex items-center justify-center mb-4">
                <img 
                   src="/resources/bgremov.webp"
                   alt="Logo"
                   className="w-100 h-100 object-contain" // Logo juga dibuat lebih kecil
                 />
             </div>
-            <div className="text-sm tracking-widest mb-2">halo</div>
+            <div className="text-sm tracking-widest mb-2">Program Studi Teknik Komputer – UMUKA</div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Computer Engineering</h1>
           <p className="text-lg text-gray-300 tracking-wider">The Character of Success</p>
@@ -133,7 +133,7 @@ const scrollToSection = (id) => {
             <h3 className="text-xl font-bold mb-2 flex items-center">
               SCHOLARSHIP <span className="ml-2 text-xs">●</span>
             </h3>
-            <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam.</p>
+            <p className="text-gray-400 text-sm">Beasiswa Prestasi & Afirmasi untuk Mahasiswa Berprestasi</p>
           </div>
           
           <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition cursor-pointer">
@@ -141,7 +141,7 @@ const scrollToSection = (id) => {
             <h3 className="text-xl font-bold mb-2 flex items-center">
               OUR CAMPUS <span className="ml-2 text-xs">●</span>
             </h3>
-            <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam.</p>
+            <p className="text-gray-400 text-sm">Kampus Strategis di Jl. Raya Solo-Tawangmangu KM 12, Karanganyar</p>
           </div>
           
           <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition cursor-pointer">
@@ -149,7 +149,7 @@ const scrollToSection = (id) => {
             <h3 className="text-xl font-bold mb-2 flex items-center">
               PROGRAM <span className="ml-2 text-xs">●</span>
             </h3>
-            <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam.</p>
+            <p className="text-gray-400 text-sm">Fokus Embedded System, Robotika, Smart Device & Mobile Robotic</p>
           </div>
         </div>
       </div>
@@ -160,12 +160,15 @@ const scrollToSection = (id) => {
           <div>
             <p className="text-gray-400 text-sm mb-4">Muhammadiyah University of Karanganyar</p>
             <h2 className="text-4xl font-bold mb-6">TEKKOM</h2>
-            <p className="text-gray-400 mb-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            <p className="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+            <p className="text-gray-400 mb-6">Program Studi Teknik Komputer UMUKA (di bawah Fakultas Sains dan Teknologi) terakreditasi Baik Sekali. Fokus utama: Sistem Embedded & Robotika.
+                                              Kami mencetak lulusan siap kerja di era Industri 4.0 → Society 5.0 melalui kurikulum teori + praktik intensif (lab modern, proyek industri, IoT, AI terintegrasi).
+                                              Berbasis nilai Muhammadiyah, lulusan kami kompeten teknis, beretika, dan berkontribusi bagi masyarakat. Siap berkarir di industri smart device, otomasi, startup, hingga wirausaha.
+                                              Dukungan fasilitas terkini & dosen berpengalaman menjadikan kami pilihan tepat untuk insinyur komputer masa depan.</p>
+            <p className="text-gray-400">Ayo bergabung! 💻🤖</p>
           </div>
           <div className="relative h-96 rounded-lg overflow-hidden">
             <img 
-              src="https://cdn.the-scientist.com/assets/image/48049/graduate-student-1800x720-x.webp"
+              src="/resources/about.webp"
               alt="Graduate"
               className="w-full h-full object-cover"
             />
@@ -265,7 +268,7 @@ const scrollToSection = (id) => {
           </div>
 
           <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-            © TEKKOM 2025-2026 | idkxz
+            © Program Studi Teknik Komputer UMUKA 2025-2026 | Demo Version
           </div>
         </div>
       </footer>
